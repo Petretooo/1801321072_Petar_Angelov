@@ -55,8 +55,7 @@ public class Game {
      * @return
      */
     public String getName() {
-        // TODO implement here
-        return "";
+        return this.name;
     }
 
     /**
@@ -64,15 +63,14 @@ public class Game {
      * @return
      */
     public void setName(String name) {
-        // TODO implement here
+        this.name = name;
     }
 
     /**
      * @return
      */
     public String getGenre() {
-        // TODO implement here
-        return "";
+        return this.genre;
     }
 
     /**
@@ -80,15 +78,14 @@ public class Game {
      * @return
      */
     public void setGenre(String genre) {
-        // TODO implement here
+        this.genre = genre;
     }
 
     /**
      * @return
      */
     public LocalDate getYear() {
-        // TODO implement here
-        return null;
+        return this.year;
     }
 
     /**
@@ -96,15 +93,14 @@ public class Game {
      * @return
      */
     public void setYear(LocalDate year) {
-        // TODO implement here
+        this.year = year;
     }
 
     /**
      * @return
      */
     public double getPrice() {
-        // TODO implement here
-        return 0.0d;
+        return this.price;
     }
 
     /**
@@ -112,7 +108,7 @@ public class Game {
      * @return
      */
     public void setPrice(double price) {
-        // TODO implement here
+        this.price = price;
     }
 
 }

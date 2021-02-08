@@ -61,24 +61,22 @@ public class User {
      * @return
      */
     public String getUsername() {
-        // TODO implement here
-        return "";
+        return this.username;
     }
 
     /**
      * @param usernaem 
      * @return
      */
-    public void setUsername(String usernaem) {
-        // TODO implement here
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     /**
      * @return
      */
     public String getPassword() {
-        // TODO implement here
-        return "";
+        return this.password;
     }
 
     /**
@@ -86,15 +84,14 @@ public class User {
      * @return
      */
     public void setPassword(String pass) {
-        // TODO implement here
+        this.password = pass;
     }
 
     /**
      * @return
      */
     public String getFirstName() {
-        // TODO implement here
-        return "";
+        return firstName;
     }
 
     /**
@@ -102,15 +99,14 @@ public class User {
      * @return
      */
     public void setFirstName(String firstName) {
-        // TODO implement here
+        this.firstName = firstName;
     }
 
     /**
      * @return
      */
     public String getLastName() {
-        // TODO implement here
-        return "";
+        return this.lastName;
     }
 
     /**
@@ -118,15 +114,14 @@ public class User {
      * @return
      */
     public void setLastName(String lastName) {
-        // TODO implement here
+        this.lastName = lastName;
     }
 
     /**
      * @return
      */
     public String getEmail() {
-        // TODO implement here
-        return "";
+       return this.email;
     }
 
     /**
@@ -134,15 +129,14 @@ public class User {
      * @return
      */
     public void setEmail(String email) {
-        // TODO implement here
+        this.email = email;
     }
 
     /**
      * @return
      */
     public Set<Game> getGames() {
-        // TODO implement here
-        return null;
+       return this.games;
     }
 
     /**
@@ -150,15 +144,14 @@ public class User {
      * @return
      */
     public void addGames(Game game) {
-        // TODO implement here
+        this.games.add(game);
     }
 
     /**
      * @return
      */
     public Subscription getSubscription() {
-        // TODO implement here
-        return null;
+        return this.subscription;
     }
 
     /**
@@ -166,7 +159,7 @@ public class User {
      * @return
      */
     public void setSubscription(Subscription subscription) {
-        // TODO implement here
+        this.subscription = subscription;
     }
 
 }

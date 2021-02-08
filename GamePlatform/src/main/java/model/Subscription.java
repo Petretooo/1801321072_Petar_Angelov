@@ -32,8 +32,7 @@ public class Subscription {
      * @return
      */
     public String getType() {
-        // TODO implement here
-        return "";
+        return this.type;
     }
 
     /**
@@ -41,23 +40,22 @@ public class Subscription {
      * @return
      */
     public void setType(String type) {
-        // TODO implement here
+        this.type = type;
     }
 
     /**
      * @return
      */
     public boolean getActive() {
-        // TODO implement here
-        return false;
+        return this.active;
     }
 
     /**
      * @param active 
      * @return
      */
-    public void setActive(String active) {
-        // TODO implement here
+    public void setActive(boolean active) {
+        this.active = active;
     }
 
 }

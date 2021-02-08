@@ -32,8 +32,7 @@ public class Studio {
      * @return
      */
     public String getName() {
-        // TODO implement here
-        return "";
+        return this.name;
     }
 
     /**
@@ -41,15 +40,14 @@ public class Studio {
      * @return
      */
     public void setName(String name) {
-        // TODO implement here
+        this.name = name;
     }
 
     /**
      * @return
      */
     public String getCountry() {
-        // TODO implement here
-        return "";
+        return this.country;
     }
 
     /**
@@ -57,15 +55,14 @@ public class Studio {
      * @return
      */
     public void setCountry(String country) {
-        // TODO implement here
+       this.country = country;
     }
 
     /**
      * @return
      */
     public Set<Game> getGames() {
-        // TODO implement here
-        return null;
+        return this.games;
     }
 
     /**
@@ -73,7 +70,7 @@ public class Studio {
      * @return
      */
     public void addGames(Game game) {
-        // TODO implement here
+        this.games.add(game);
     }
 
 }
